@@ -135,6 +135,7 @@ public class NavigationReactGateway implements ReactGateway {
 	}
 
 	public static class ReactNativeHostImpl extends ReactNativeHost implements ReactInstanceManager.ReactInstanceEventListener { 
+		ReactNativeHostImpl() {
 			super(NavigationApplication.instance);
 		}
 
